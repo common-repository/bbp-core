@@ -522,7 +522,7 @@ body.body_dark .community-area .nav-tabs .nav-item button.active {
   border-radius: 50px;
 }
 
-.widget_display_replies li a .bbp-author-avatar {
+.widget_display_replies li .bbp-author-avatar {
   margin-right: 5px;
 }
 
@@ -877,26 +877,14 @@ body.body_dark .forum-post-widget .post-filter-widget .single-filter-item svg, b
   fill: darkgrey;
 }
 
+#aj-post-filter-widget svg circle.bbpc-preloader {
+  stroke: var(--bbpc_brand_color) !important;
+}
+
 .ama-search-widget {
   position: relative;
   margin-left: auto;
   margin-right: auto;
-}
-.ama-search-widget #ama-search-result {
-  display: none;
-  position: absolute;
-  width: 100%;
-  background: #fff;
-  border: 1px solid #e6eeef;
-  border-radius: 4px;
-  box-shadow: 0 3px 4px 0 rgba(4, 73, 89, 0.06);
-  margin-top: 25px !important;
-  padding: 20px 25px;
-  font-size: 14px;
-  font-weight: 400;
-  transition: all 0.4s;
-  top: 45px;
-  z-index: 99;
 }
 .ama-search-widget .header_search_keyword {
   text-align: left;
